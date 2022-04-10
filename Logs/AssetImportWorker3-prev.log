@@ -1,0 +1,327 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.21f1 (a38c86f6690f) revision 10718342'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19042.630; Version 2009; 64bit' Language: 'en' Physical Memory: 16222 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+G:\unity\Unity 2020.3.21f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+C:/Users/Arash/Desktop/Stack/My project
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+62594
+Successfully changed project path to: C:/Users/Arash/Desktop/Stack/My project
+C:/Users/Arash/Desktop/Stack/My project
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 469.68 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.21f1 (a38c86f6690f)
+[Subsystems] Discovering subsystems at path G:/unity/Unity 2020.3.21f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Arash/Desktop/Stack/My project/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce 940M     (ID=0x1347)
+    Vendor:   
+    VRAM:     4037 MB
+    Driver:   10.18.13.5324
+Initialize mono
+Mono path[0] = 'G:/unity/Unity 2020.3.21f1/Editor/Data/Managed'
+Mono path[1] = 'G:/unity/Unity 2020.3.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'G:/unity/Unity 2020.3.21f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56904
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: G:/unity/Unity 2020.3.21f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: G:/unity/Unity 2020.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002736 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 170.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.027 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3027ms)
+		BeginReloadAssembly (188ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (1317ms)
+			LoadAssemblies (186ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (519ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (118ms)
+			SetupLoadedEditorAssemblies (463ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (171ms)
+				BeforeProcessingInitializeOnLoad (28ms)
+				ProcessInitializeOnLoadAttributes (191ms)
+				ProcessInitializeOnLoadMethodAttributes (63ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.012287 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 168.12 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.272 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3274ms)
+		BeginReloadAssembly (353ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (42ms)
+		EndReloadAssembly (2787ms)
+			LoadAssemblies (215ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1070ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (149ms)
+			SetupLoadedEditorAssemblies (1054ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (168ms)
+				BeforeProcessingInitializeOnLoad (219ms)
+				ProcessInitializeOnLoadAttributes (536ms)
+				ProcessInitializeOnLoadMethodAttributes (112ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Switching render pipeline 00000000000000000000000000000000 -> 19ba41d7c0026c3459d37c2fe90c55a0
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.32 seconds
+Refreshing native plugins compatible for Editor in 2.06 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3369 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 139.3 MB.
+System memory in use after: 139.5 MB.
+
+Unloading 59 unused Assets to reduce memory usage. Loaded Objects now: 3773.
+Total: 15.486100 ms (FindLiveObjects: 0.700900 ms CreateObjectMapping: 0.362000 ms MarkObjects: 14.144700 ms  DeleteObjects: 0.276100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:srp/default-shader: 0000e00a000e0de00000e000e0000000 -> 00a0da0d000000000000000000000000
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:srp/default-pipeline: 91ab147d0c20c643953dc7f29ec0550a -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(d1c3109bdb54ad54c8a2b2838528e640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(d1c3109bdb54ad54c8a2b2838528e640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 47.267894 seconds  code(4) message(Build asset version error: assets/scenes/samplescene.unity in SourceAssetDB has modification time of '2021-06-29T08:15:20Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff72bf3b6fc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff72bf43d99 (Unity) StackWalker::ShowCallstack
+0x00007ff72d471cac (Unity) GetStacktrace
+0x00007ff72d655067 (Unity) GetAssetHashAndValidate
+0x00007ff72d650233 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff72d64e1a2 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff72d6285bd (Unity) CreateAssetVersionBuilder
+0x00007ff72d62f2bd (Unity) ImportToObjects
+0x00007ff72d62e0d8 (Unity) ImportAsset
+0x00007ff72d58fe38 (Unity) AssetImportWorker::Import
+0x00007ff72d5e31ca (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff72d6878a2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff72d689a00 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff72d68d18e (Unity) asio::io_service::run
+0x00007ff72d61002b (Unity) RunAssetImportWorkerClientV2
+0x00007ff72d610080 (Unity) RunAssetImporterV2
+0x00007ff72cacb046 (Unity) Application::InitializeProject
+0x00007ff72d47f212 (Unity) WinMain
+0x00007ff72f2ddef6 (Unity) __scrt_common_main_seh
+0x00007ffa36fa7034 (KERNEL32) BaseThreadInitThunk
+0x00007ffa38f7cec1 (ntdll) RtlUserThreadStart
+)
+  ERROR: Build asset version error: assets/scenes/samplescene.unity in SourceAssetDB has modification time of '2021-06-29T08:15:20Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff72bf3b6fc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff72bf43d99 (Unity) StackWalker::ShowCallstack
+0x00007ff72d471cac (Unity) GetStacktrace
+0x00007ff72d655067 (Unity) GetAssetHashAndValidate
+0x00007ff72d650233 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff72d64e1a2 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff72d6285bd (Unity) CreateAssetVersionBuilder
+0x00007ff72d62f2bd (Unity) ImportToObjects
+0x00007ff72d62e0d8 (Unity) ImportAsset
+0x00007ff72d58fe38 (Unity) AssetImportWorker::Import
+0x00007ff72d5e31ca (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff72d6878a2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff72d689a00 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff72d68d18e (Unity) asio::io_service::run
+0x00007ff72d61002b (Unity) RunAssetImportWorkerClientV2
+0x00007ff72d610080 (Unity) RunAssetImporterV2
+0x00007ff72cacb046 (Unity) Application::InitializeProject
+0x00007ff72d47f212 (Unity) WinMain
+0x00007ff72f2ddef6 (Unity) __scrt_common_main_seh
+0x00007ffa36fa7034 (KERNEL32) BaseThreadInitThunk
+0x00007ffa38f7cec1 (ntdll) RtlUserThreadStart
+
+  Import took 47.281458 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000351 seconds.
+  path: Assets/Settings
+  artifactKey: Guid(0735c275001a2c84dafdb30deced5d8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings using Guid(0735c275001a2c84dafdb30deced5d8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cadd7ca10b5bf32e886eec457cf073a7') in 0.049680 seconds 
+  Import took 0.067724 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.607137 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(9bd99795ca3a6d64c93c6a4d87787c4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(9bd99795ca3a6d64c93c6a4d87787c4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000720 seconds  code(4) message(Build asset version error: assets/scenes.meta in SourceAssetDB has modification time of '2022-04-10T10:38:58.7041266Z' while content on disk has modification time of '2022-01-12T14:37:44.7321602Z')
+  ERROR: Build asset version error: assets/scenes.meta in SourceAssetDB has modification time of '2022-04-10T10:38:58.7041266Z' while content on disk has modification time of '2022-01-12T14:37:44.7321602Z'
+  Import took 0.016950 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.351286 seconds.
+  path: Assets/TutorialInfo
+  artifactKey: Guid(49110bb8dcada46328ad741970bce702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialInfo using Guid(49110bb8dcada46328ad741970bce702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.004222 seconds  code(4) message(Build asset version error: assets/tutorialinfo.meta in SourceAssetDB has modification time of '2021-06-29T08:15:20Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff72bf3b6fc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff72bf43d99 (Unity) StackWalker::ShowCallstack
+0x00007ff72d471cac (Unity) GetStacktrace
+0x00007ff72d655067 (Unity) GetAssetHashAndValidate
+0x00007ff72d6502e4 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff72d64e1a2 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff72d6285bd (Unity) CreateAssetVersionBuilder
+0x00007ff72d62f2bd (Unity) ImportToObjects
+0x00007ff72d62e0d8 (Unity) ImportAsset
+0x00007ff72d58fe38 (Unity) AssetImportWorker::Import
+0x00007ff72d5e31ca (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff72d6878a2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff72d689a00 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff72d68d18e (Unity) asio::io_service::run
+0x00007ff72d61002b (Unity) RunAssetImportWorkerClientV2
+0x00007ff72d610080 (Unity) RunAssetImporterV2
+0x00007ff72cacb046 (Unity) Application::InitializeProject
+0x00007ff72d47f212 (Unity) WinMain
+0x00007ff72f2ddef6 (Unity) __scrt_common_main_seh
+0x00007ffa36fa7034 (KERNEL32) BaseThreadInitThunk
+0x00007ffa38f7cec1 (ntdll) RtlUserThreadStart
+)
+  ERROR: Build asset version error: assets/tutorialinfo.meta in SourceAssetDB has modification time of '2021-06-29T08:15:20Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff72bf3b6fc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff72bf43d99 (Unity) StackWalker::ShowCallstack
+0x00007ff72d471cac (Unity) GetStacktrace
+0x00007ff72d655067 (Unity) GetAssetHashAndValidate
+0x00007ff72d6502e4 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff72d64e1a2 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff72d6285bd (Unity) CreateAssetVersionBuilder
+0x00007ff72d62f2bd (Unity) ImportToObjects
+0x00007ff72d62e0d8 (Unity) ImportAsset
+0x00007ff72d58fe38 (Unity) AssetImportWorker::Import
+0x00007ff72d5e31ca (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff72d6878a2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff72d689a00 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff72d68d18e (Unity) asio::io_service::run
+0x00007ff72d61002b (Unity) RunAssetImportWorkerClientV2
+0x00007ff72d610080 (Unity) RunAssetImporterV2
+0x00007ff72cacb046 (Unity) Application::InitializeProject
+0x00007ff72d47f212 (Unity) WinMain
+0x00007ff72f2ddef6 (Unity) __scrt_common_main_seh
+0x00007ffa36fa7034 (KERNEL32) BaseThreadInitThunk
+0x00007ffa38f7cec1 (ntdll) RtlUserThreadStart
+
+  Import took 0.019433 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.952154 seconds.
+  path: Assets/TutorialInfo
+  artifactKey: Guid(49110bb8dcada46328ad741970bce702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialInfo using Guid(49110bb8dcada46328ad741970bce702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.003292 seconds  code(4) message(Build asset version error: assets/tutorialinfo.meta in SourceAssetDB has modification time of '2021-06-29T08:15:20Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff72bf3b6fc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff72bf43d99 (Unity) StackWalker::ShowCallstack
+0x00007ff72d471cac (Unity) GetStacktrace
+0x00007ff72d655067 (Unity) GetAssetHashAndValidate
+0x00007ff72d6502e4 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff72d64e1a2 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff72d6285bd (Unity) CreateAssetVersionBuilder
+0x00007ff72d62f2bd (Unity) ImportToObjects
+0x00007ff72d62e0d8 (Unity) ImportAsset
+0x00007ff72d58fe38 (Unity) AssetImportWorker::Import
+0x00007ff72d5e31ca (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff72d6878a2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff72d689a00 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff72d68d18e (Unity) asio::io_service::run
+0x00007ff72d61002b (Unity) RunAssetImportWorkerClientV2
+0x00007ff72d610080 (Unity) RunAssetImporterV2
+0x00007ff72cacb046 (Unity) Application::InitializeProject
+0x00007ff72d47f212 (Unity) WinMain
+0x00007ff72f2ddef6 (Unity) __scrt_common_main_seh
+0x00007ffa36fa7034 (KERNEL32) BaseThreadInitThunk
+0x00007ffa38f7cec1 (ntdll) RtlUserThreadStart
+)
+  ERROR: Build asset version error: assets/tutorialinfo.meta in SourceAssetDB has modification time of '2021-06-29T08:15:20Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff72bf3b6fc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff72bf43d99 (Unity) StackWalker::ShowCallstack
+0x00007ff72d471cac (Unity) GetStacktrace
+0x00007ff72d655067 (Unity) GetAssetHashAndValidate
+0x00007ff72d6502e4 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff72d64e1a2 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff72d6285bd (Unity) CreateAssetVersionBuilder
+0x00007ff72d62f2bd (Unity) ImportToObjects
+0x00007ff72d62e0d8 (Unity) ImportAsset
+0x00007ff72d58fe38 (Unity) AssetImportWorker::Import
+0x00007ff72d5e31ca (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff72d6878a2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff72d689a00 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff72d68d18e (Unity) asio::io_service::run
+0x00007ff72d61002b (Unity) RunAssetImportWorkerClientV2
+0x00007ff72d610080 (Unity) RunAssetImporterV2
+0x00007ff72cacb046 (Unity) Application::InitializeProject
+0x00007ff72d47f212 (Unity) WinMain
+0x00007ff72f2ddef6 (Unity) __scrt_common_main_seh
+0x00007ffa36fa7034 (KERNEL32) BaseThreadInitThunk
+0x00007ffa38f7cec1 (ntdll) RtlUserThreadStart
+
+  Import took 0.013459 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.001108 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(9bd99795ca3a6d64c93c6a4d87787c4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(9bd99795ca3a6d64c93c6a4d87787c4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000837 seconds  code(4) message(Build asset version error: assets/scenes.meta in SourceAssetDB has modification time of '2022-04-10T10:38:58.7041266Z' while content on disk has modification time of '2022-01-12T14:37:44.7321602Z')
+  ERROR: Build asset version error: assets/scenes.meta in SourceAssetDB has modification time of '2022-04-10T10:38:58.7041266Z' while content on disk has modification time of '2022-01-12T14:37:44.7321602Z'
+  Import took 0.035499 seconds .
+
