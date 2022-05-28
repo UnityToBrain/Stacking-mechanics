@@ -25,6 +25,15 @@ public class Gamemanager : MonoBehaviour
         if (Input.GetMouseButtonDown(0))
         {
             StartTheGame = MoveByTouch = true;
+            
+             Plane newPlan = new Plane(Vector3.up, 0f);
+            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+
+            if (newPlan.Raycast(ray,out var distance))
+            {
+                _mouseStartPos = ray.GetPoint(distance);
+                PlayerStartPos = ball.position;
+            }
         }
 
         if (Input.GetMouseButtonUp(0))
@@ -69,11 +78,11 @@ public class Gamemanager : MonoBehaviour
 
                 var DesireDistance = Vector3.Distance(FirstBall.position,SectBall.position );
 
-                if (DesireDistance <= Distance)
-                {
+            //    if (DesireDistance <= Distance)
+            //    {
                     SectBall.position = new Vector3(Mathf.Lerp(SectBall.position.x,FirstBall.position.x,SwipeSpeed * Time.deltaTime)
                     ,SectBall.position.y,Mathf.Lerp(SectBall.position.z,FirstBall.position.z + 0.5f,SwipeSpeed * Time.deltaTime));
-                }
+              //  }
             }
         
         }
