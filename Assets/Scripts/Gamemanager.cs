@@ -76,7 +76,7 @@ public class Gamemanager : MonoBehaviour
                 var FirstBall = Balls.ElementAt(i - 1);
                 var SectBall = Balls.ElementAt(i);
 
-                var DesireDistance = Vector3.Distance(FirstBall.position,SectBall.position );
+              //  var DesireDistance = Vector3.Distance(FirstBall.position,SectBall.position );
 
             //    if (DesireDistance <= Distance)
             //    {
